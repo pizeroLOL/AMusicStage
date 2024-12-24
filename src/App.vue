@@ -1,22 +1,22 @@
 <script setup lang="ts">
 import { RouterLink, RouterView } from 'vue-router'
-import HelloWorld from './components/HelloWorld.vue'
+import MusicPlayer from './components/MusicPlayer.vue'
 </script>
 
 <template>
-  <header>
+  <!-- <header>
     <nav>
       <RouterLink to="/">播放列表</RouterLink>
       <RouterLink to="/select">点歌台</RouterLink>
     </nav>
-  </header>
+  </header> -->
 
   <main>
     <RouterView />
   </main>
 
   <footer>
-    <audio controls></audio>
+    <MusicPlayer />
   </footer>
 </template>
 
@@ -55,9 +55,8 @@ footer {
   position: fixed;
   bottom: 0;
   left: 0;
-  height: 3em;
+  height: 2em;
   padding: 0.5em;
-  text-align: center;
   background-color: var(--md-sys-color-surface-3);
 }
 </style>
