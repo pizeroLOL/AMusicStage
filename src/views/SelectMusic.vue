@@ -1,7 +1,7 @@
 <script setup lang="ts"></script>
 
 <template>
-  <h1>播放列表</h1>
+  <h1>点歌台</h1>
 </template>
 
 <style scoped>
